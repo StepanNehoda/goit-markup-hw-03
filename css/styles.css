@@ -87,16 +87,6 @@ body {
   color: var(--maincolorblack);
 }
 
-.menu {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-.contacts {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
 .menu-link:hover,
 .meni-link:focus {
   color: var(--maincoloreff);
@@ -139,6 +129,7 @@ body {
   color: var(--maincoloreff);
 }
 .header {
+  padding: 24px 0;
   border-bottom: 1px solid var(--borderheadercolor);
 }
 /* ===== MAIN BANNER STYLES ===== */
@@ -277,10 +268,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--maincolorsilver);
-  margin-bottom: 30px;
 }
-.images {
-  margin-bottom: 30px;
+
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* ===== FOOTER STYLES ===== */
@@ -339,6 +331,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  border-color: transparent;
 }
 
 .main-modal-buttons-item:not(:last-child) {
